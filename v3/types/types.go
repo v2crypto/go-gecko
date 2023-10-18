@@ -46,7 +46,7 @@ type CoinsID struct {
 	StatusUpdates         *[]StatusUpdateItem `json:"status_updates"`
 	LastUpdated           string              `json:"last_updated"`
 	Tickers               *[]TickerItem       `json:"tickers"`
-	FullyDilutedValuation map[string]string   `json:"fully_diluted_valuation"`
+	FullyDilutedValuation AllCurrencies       `json:"fully_diluted_valuation"`
 }
 
 // CoinsIDTickers https://api.coingecko.com/api/v3/coins/steem/tickers?page=1

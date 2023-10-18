@@ -81,6 +81,7 @@ type MarketDataItem struct {
 	ATL                                    AllCurrencies     `json:"atl"`
 	ATLChangePercentage                    AllCurrencies     `json:"atl_change_percentage"`
 	ATLDate                                map[string]string `json:"atl_date"`
+	FullyDilutedValuation                  AllCurrencies     `json:"fully_diluted_valuation"`
 	MarketCap                              AllCurrencies     `json:"market_cap"`
 	MarketCapRank                          uint16            `json:"market_cap_rank"`
 	TotalVolume                            AllCurrencies     `json:"total_volume"`
